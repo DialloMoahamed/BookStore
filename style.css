@@ -1,0 +1,110 @@
+.position-relative .badge-notif {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: red;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#nav-link1 {
+    color: #f5b7be;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: #f5b7be;
+    text-decoration: underline;
+}
+.nav-link:active {
+    color: #f67685;
+    text-decoration: underline;
+}
+
+.hover-rose:hover {
+    background-color: white !important;
+    color: #f67685 !important;
+    transform: scale(1.01);
+}
+.hover-rose:hover .hover-rose1 {
+    background-color: #f67685 !important;
+    color: white !important;
+}
+.hover-rose2:hover {
+    background-color: #f67685 !important;
+    color: white !important;
+}
+
+.btns:hover {
+    background-color: #B31F27 !important;
+    color: white !important;
+}
+
+.anim img {
+    transition: transform 0.7s ease !important;
+}
+.anim:hover img {
+    transform: scale(1.07);
+}
+
+.map-responsive {
+  position: relative;
+  padding-bottom: 56.25%; /* ratio 16/9 */
+  height: 0;
+  overflow: hidden;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.renvres {
+    float: inline-end;
+    margin-top: -4em;
+    height: 400px !important;
+    width: 400px;
+}
+
+.contact-tab {
+    color: grey;
+    margin-right: -11em;
+    transform: rotate(-90deg);
+    font-size: 2em;
+}
+
+.trait-rose {
+    width: 5em;
+    height: 2px;
+    background-color: #f67685;
+}
+
+ .book-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+
+/* .books-row{
+    margin: 1em !important;
+} */
+
+@media (max-width: 425px){
+   .books-row{
+    margin: 1em !important;
+     gap: 1rem !important;
+   }
+}
